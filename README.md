@@ -3,7 +3,7 @@ Beach Yoaga Fuerteventura is a website designed for a fictional yoga club in El 
 
 amiresponsive
 
-To visit the live link to Fuerteventura Beach Yoga on GitHub pages click [here](https://decant09.github.io/beach-yoga-fuerteventura/)
+To visit the live link to Fuerteventura Beach Yoga on GitHub pages click [here](https://decant09.github.io/beach-yoga-fuerteventura/).
 
 ## Contents
 
@@ -31,7 +31,7 @@ The site was deployed to GitHub pages and the following steps were followed to d
 3. In the repository click on the Settings tab.
 4. Use the navigation bar on the left hand side to open the pages section.
 5. In the branch section select a source to enable GitHub Pages for this repository. Select Main from the drop-down menu and click Save.
-6. Wait a few moments and an url is generated with a live link to the website which can be found [here](https://decant09.github.io/beach-yoga-fuerteventura/)
+6. Wait a few moments and an url is generated with a live link to the website which can be found [here](https://decant09.github.io/beach-yoga-fuerteventura/).
 
 ## Testing
 Document testing that was run during the build and any issues
