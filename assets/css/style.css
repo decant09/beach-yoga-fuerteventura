@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&family=Lato&display=swap');
+
 body {
     background-color: #EBD6BF;
     color: #54424B;
+    font-family: 'josefin slab', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+h1, h2 {
+    font-family: 'lato', sans-serif;
+    text-transform: uppercase;
 }
