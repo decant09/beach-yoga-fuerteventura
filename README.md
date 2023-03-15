@@ -71,4 +71,6 @@ Media eg photos videos
 
 9 Benefits of Yoga from [Johns Hopkins Medicine](https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-benefits-of-yoga).
 
+How to create an e-mail link in HTML from [wikihow](https://www.wikihow.com/Create-an-Email-Link-in-HTML)
+
 Acknowledgements
