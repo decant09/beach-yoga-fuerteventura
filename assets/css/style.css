@@ -1,15 +1,39 @@
+/* google font import*/
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&family=Lato&display=swap');
 
 body {
+    margin: 0;
+    padding: 0;
+    border: none;
     background-color: #EBD6BF;
     color: #54424B;
     font-family: 'josefin slab', serif;
-    font-size: 20px;
-    font-weight: bold;
 }
 
 
 h1, h2 {
     font-family: 'lato', sans-serif;
     text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#logo {
+    height: 150px;
+    width: 250px;
+    background: url(../images/byf-logo-lato.png) no-repeat center center;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/hero-image.jpg) no-repeat center center;
 }
