@@ -10,7 +10,6 @@ body {
     font-family: 'josefin slab', serif;
 }
 
-
 h1, h2 {
     font-family: 'lato', sans-serif;
     text-transform: uppercase;
@@ -26,10 +25,6 @@ p {
     font-size: 20px;
 }
 
-#logo {
-    text-align: center;
-}
-
 #hero-image {
     height: 600px;
     width: 100%;
@@ -37,4 +32,29 @@ p {
     background: url(../images/hero-image.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
+    position: relative;
+}
+
+#dancers-pose {
+    text-align: center;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#dancers-pose img {
+    margin-top: -1000px;
+    width: 100%;
+}
+
+#yoga-class {
+    text-align: center;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#yoga-class img {
+    margin-top: -400px;
+    margin-left: -200px;
 }
