@@ -25,6 +25,29 @@ p {
     font-size: 20px;
 }
 
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+#menu {
+    text-align: center;
+    font-size: 130%;
+}
+
+#menu li {
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #54424B;
+}
+
 #hero-image {
     height: 600px;
     width: 100%;
