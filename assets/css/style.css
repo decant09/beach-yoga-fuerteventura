@@ -84,12 +84,12 @@ p {
     padding-left: 50px;
 }
 
+/* yoga quote and dancers pose image section */
+
 #yoga-quote {
     height: 300px;
     text-align: center;
 }
-
-/* yoga quote and dancers pose image section */
 
 #yoga-quote h2 {
     position: relative;
@@ -119,6 +119,25 @@ p {
 }
 
 /* about us and yoga class image section */
+
+#about-us {
+    height: 450px;
+    text-align: left;
+    padding: 0 10% 0 10%;
+}
+
+#about-us h2 {
+    padding-bottom: 20px;
+    position: relative;
+    top: 20%;
+    transform: translateY(-50%);
+}
+
+#about-us p {
+    position: relative;
+    top: 20%;
+    transform: translateY(-50%);
+}
 
 #yoga-class {
     text-align: center;
