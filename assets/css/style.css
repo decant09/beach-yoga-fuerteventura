@@ -34,6 +34,8 @@ p {
     justify-content: center;
 }
 
+/* navigation links */
+
 #menu {
     text-align: center;
     font-size: 130%;
@@ -59,6 +61,8 @@ p {
     border-bottom: 1px solid #54424B;
 }
 
+/* hero image and cover text section */
+
 #hero-image {
     height: 600px;
     width: 100%;
@@ -72,8 +76,31 @@ p {
     padding-top: 50px;
 }
 
-#cover-text h1, h2 {
+#cover-text h1 {
     padding-left: 50px;
+}
+
+#cover-text h2 {
+    padding-left: 50px;
+}
+
+#yoga-quote {
+    height: 300px;
+    text-align: center;
+}
+
+/* yoga quote and dancers pose image section */
+
+#yoga-quote h2 {
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+#yoga-quote p {
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
 }
 
 #dancers-pose {
@@ -90,6 +117,8 @@ p {
     top: 40%;
     transform: translateY(-50%);
 }
+
+/* about us and yoga class image section */
 
 #yoga-class {
     text-align: center;
