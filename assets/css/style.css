@@ -153,3 +153,17 @@ p {
     top: 40%;
     transform: translateY(-50%);
 }
+
+/* why yoga */
+
+#why-yoga {
+    height: 150px;
+    padding-top: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#benefits {
+    height: 450px;
+    padding: 0 10% 0 10%;
+}
