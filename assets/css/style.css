@@ -163,7 +163,40 @@ p {
     padding-right: 10%;
 }
 
+#why-yoga a {
+    font-style: italic;
+    text-decoration: none;
+    color: inherit;
+}
+
+#why-yoga a:hover {
+    border-bottom: 1px solid #54424B;
+}
+
 #benefits {
     height: 450px;
     padding: 0 10% 0 10%;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+    border-top: 1px solid #54424B;
+
+}
+
+.media-links {
+    text-align: center;
+}
+
+.media-links > li {
+    display: inline;
+}
+
+.media-links i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #54424B;
 }
