@@ -22,13 +22,24 @@ To visit the live link to Fuerteventura Beach Yoga on GitHub pages click [here](
 *https://mycolor.space/?hex=%23E2D6DC&sub=1
 
 ### Typography
+For font pairing ideas [Figma](https://www.figma.com/google-fonts/josefin-sans-font-pairings/)
 ### Imagery
+*Hero image [Pexels](https://www.pexels.com/photo/a-woman-meditating-at-the-beach-6712374/)
+*Dacers pose image [Pexels](https://www.pexels.com/photo/woman-in-yoga-pose-on-beach-13894711/)
+*Yoga class image [Unsplash](https://unsplash.com/photos/GaprWyIw66o)
+
 ### Wireframes
 
 ## Features
 
 ##  Technologies Used
+*For icons [Font Awesome](https://fontawesome.com/)
+*For font [Google Fonts](https://fonts.google.com/)
+*Logo on [Canva](https://www.canva.com/)
+*For image compression [tinypng](https://tinypng.com/)
 ### Languages
+*HTML
+*CSS
 ### Frameworks
 
 ## Deployment
