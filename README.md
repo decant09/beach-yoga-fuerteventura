@@ -73,6 +73,8 @@ Test on different browsers i.e chrome, firefox, safari, edge
 #### Known
 #### Solved
 
+Images did not upload when viewing website on GitHub pages. Removed leading "/" from src path to fix issue.
+
 ## Credits
 Code Used
 
