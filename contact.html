@@ -14,7 +14,7 @@
     <header>    
         <!-- logo -->
         <a id="logo" href="index.html">
-            <img src="/assets/images/byf-logo-lato.png" alt="beach yoha fuerteventura logo with link to homepage">
+            <img src="assets/images/byf-logo-lato.png" alt="beach yoha fuerteventura logo with link to homepage">
         </a>
         <!-- navbar -->
         <nav>
@@ -40,34 +40,30 @@
         </p>
         <p>We would love to hear from you!</p>
     </section>
-    <section>
-        <div>
-            <form action="#" method="post"></form>
-            <div>
-                <label for="fname">First Name</label>
-                <input class="text-input" id="fname" name="first_name" type="text" required>
-            </div>
-            <div>
-                <label for="lname">Last Name</label>
-                <input class="text-input" id="lname" name="last_name" type="text" required>
-            </div>
-            <div>
-                <label for="email">Email Address</label>
-                <input class="text-input" type="email" id="email" name="email_address" required>
-            </div>
-            <div>
+    <section id="form-map-area">
+        <div class="form-map-align left">
+            <form action="#" method="POST">
+                <label for="fname">First Name:</label>
+                <input class="form-item" id="fname" name="first_name" type="text" required>
+     
+                <label for="lname">Last Name:</label>
+                <input class="form-item" id="lname" name="last_name" type="text" required>
+     
+                <label for="email">Email Address:</label>
+                <input class="form-item" type="email" id="email" name="email_address" required>
+     
+                <textarea class="form-item" placeholder="Your message..." rows="10" required></textarea>
+    
                 <label for="newsletter">Signup for newsletter</label>
                 <input type="checkbox" checked="checked" id="newsletter">
-            </div>
-            <div>
-                <input class="join-button" type="submit">
-            </div>
-            <div>
-                <textarea placeholder="Your message..." class="col-12" rows="10" required></textarea>
-            </div>
+    
+                <input class="form-item" type="submit" value="Submit">
+            </form>
         </div>
-        <div style="width: 100%">
-            <p>Before class we meet at Castillo de El Tostón and from there we walk a short distance to the location on the beach
+
+        <div class="form-map-align right">
+            <p>
+                Before class we meet at Castillo de El Tostón and from there we walk a short distance to the location on the beach
                 where we hold our classes. For directions to the meeting point please refer to the map below.
             </p>
             <iframe width="100%" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"

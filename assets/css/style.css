@@ -200,3 +200,36 @@ footer {
     padding: 5%;
     color: #54424B;
 }
+
+/* form */
+label {
+    font-size: 20px;
+}
+
+.form-item {
+    display: list-item;
+    width: 100%;
+}
+
+form {
+    border: 1px solid black;
+    height: 100%;
+}
+
+.form-map-align {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+#form-map-area { 
+    
+}
