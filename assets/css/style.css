@@ -168,7 +168,6 @@ p {
 
 #why-yoga a {
     font-style: italic;
-    text-decoration: none;
     color: inherit;
 }
 
@@ -227,14 +226,14 @@ footer {
 
 /* form */
 form {
-    border: 1px solid #54424B;
+    /* border: 1px solid #54424B; */
     height: 100%;
 }
 
 label {
     font-size: 1.25rem;
-    padding: 0.5em;
-    margin: 5px;
+    padding: 0.5em 0;
+    margin: 5px 0;
 }
 
 .form-input-area {
