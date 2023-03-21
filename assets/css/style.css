@@ -173,6 +173,7 @@ p {
 
 #why-yoga a:hover {
     border-bottom: 1px solid #54424B;
+    /* color: blue; */
 }
 
 /* #benefits {
@@ -202,6 +203,22 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #54424B;
+}
+
+/* schedule */
+
+#schedule-img {
+    height: 600px;
+    width: 100%;
+    background: url(../images/schedule.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#schedule-cover-text {
+    padding-top: 20px;
+    padding-left: 10%;
 }
 
 /* contact */
