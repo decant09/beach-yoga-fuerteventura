@@ -73,15 +73,15 @@ p {
 }
 
 #cover-text {
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 #cover-text h1 {
-    padding-left: 50px;
+    padding-left: 20px;
 }
 
 #cover-text h2 {
-    padding-left: 50px;
+    padding-left: 20px;
 }
 
 /* yoga quote and dancers pose image section */
@@ -120,22 +120,15 @@ p {
 
 /* about us and yoga class image section */
 
-#about-us {
+#about-us-container {
     height: 450px;
     text-align: left;
     padding: 0 10% 0 10%;
 }
 
-#about-us h2 {
-    padding-bottom: 20px;
+#about-us {
     position: relative;
-    top: 20%;
-    transform: translateY(-50%);
-}
-
-#about-us p {
-    position: relative;
-    top: 20%;
+    top: 50%;
     transform: translateY(-50%);
 }
 
@@ -150,17 +143,26 @@ p {
     width: 100%;
     object-position: center center;
     position: relative;
-    top: 40%;
+    top: 50%;
     transform: translateY(-50%);
 }
 
 /* why yoga */
 
+#why-yoga-container {
+    height: 750px;
+    text-align: left;
+    padding: 50px 10% 50px 10%;
+}
+
+#why-yoga-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 #why-yoga {
-    height: 150px;
-    padding-top: 60px;
-    padding-left: 10%;
-    padding-right: 10%;
+    height: 10rem;
 }
 
 #why-yoga a {
@@ -173,10 +175,10 @@ p {
     border-bottom: 1px solid #54424B;
 }
 
-#benefits {
+/* #benefits {
     height: 450px;
     padding: 0 10% 0 10%;
-}
+} */
 
 /* footer */
 
@@ -200,6 +202,8 @@ footer {
     padding: 5%;
     color: #54424B;
 }
+
+/* contact */
 
 /* form */
 form {
