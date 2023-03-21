@@ -205,11 +205,28 @@ footer {
 
 /* contact */
 
+#contact-us-img {
+    height: 600px;
+    width: 100%;
+    background: url(../images/contact-us.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#contact-us-cover-text {
+    padding-top: 20px;
+    padding-left: 10%;
+}
+
+#contact-us-opener {
+    margin: 0 10%;
+}
+
 /* form */
 form {
     border: 1px solid #54424B;
     height: 100%;
-    margin: 0 0.5em;
 }
 
 label {
@@ -223,7 +240,7 @@ label {
     width: -webkit-fill-available;
     font-size: 1.25rem;
     font-family: inherit;
-    margin: 0.5em;
+    margin: 0.5em 0;
     padding: 0.5em;
     border: #54424B solid 1px;
     border-radius: 5px;
@@ -231,13 +248,18 @@ label {
 
 input[type=submit] {
     cursor: pointer;
+    margin-bottom: 0;
 }
 
 .form-map-align {
     height: 100%;
     width: 40%;
     overflow: hidden;
-    margin: 1em 5%;
+    margin: 1em 10%;
+}
+
+.form-map-align h2 {
+    margin-top: 0;
 }
 
 #form-map-area {
@@ -247,4 +269,12 @@ input[type=submit] {
 
 .form-map-align > p {
     margin-block-start: 0;
+}
+
+.right {
+    margin-left: 5%;
+}
+
+.left {
+    margin-right: 5%;
 }
