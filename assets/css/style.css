@@ -191,6 +191,7 @@ footer {
 
 .media-links {
     text-align: center;
+    padding-inline-start: 0;
 }
 
 .media-links > li {
