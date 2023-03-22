@@ -358,3 +358,14 @@ input[type=submit] {
 #classes-container a:hover {
     color: #CA9FB6;
 }
+
+/* thank you */
+
+#sunset-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/sunset.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
