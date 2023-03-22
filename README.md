@@ -27,7 +27,9 @@ For font pairing ideas [Figma](https://www.figma.com/google-fonts/josefin-sans-f
 *Hero image [Pexels](https://www.pexels.com/photo/a-woman-meditating-at-the-beach-6712374/)
 *Dacers pose image [Pexels](https://www.pexels.com/photo/woman-in-yoga-pose-on-beach-13894711/)
 *Yoga class image [Unsplash](https://unsplash.com/photos/GaprWyIw66o)
-
+*Schedule image [Unsplash](https://unsplash.com/photos/aHll22KZdJE)
+*Contact us image [Pexels](https://www.pexels.com/photo/palm-trees-around-beach-in-village-15739715/)
+*Thank you image [Unsplash](https://unsplash.com/photos/KMn4VEeEPR8)
 #### Wireframes
 
 ## Features
