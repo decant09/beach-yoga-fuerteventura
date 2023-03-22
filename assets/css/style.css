@@ -92,11 +92,26 @@ p {
 }
 
 #yoga-quote-content {
-    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 2px dashed #54424B;
+    text-align: center; */
+    /* text-align: center;
     padding: 0 10% 0 10%;
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding: 0 10% 0 10%;
 }   
 
 #dancers-pose {
@@ -119,13 +134,15 @@ p {
 #about-us-container {
     height: 450px;
     text-align: left;
-    padding: 0 10% 0 10%;
 }
 
 #about-us {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 100%;
+    padding: 0 10% 0 10%;
 }
 
 #yoga-class {
@@ -148,13 +165,15 @@ p {
 #why-yoga-container {
     height: 750px;
     text-align: left;
-    padding: 50px 10% 50px 10%;
 }
 
 #why-yoga-content {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 100%;
+    padding: 0 10% 0 10%;
 }
 
 #why-yoga {
@@ -173,7 +192,6 @@ p {
 
 /* #benefits {
     height: 450px;
-    padding: 0 10% 0 10%;
 } */
 
 /* footer */
@@ -181,7 +199,6 @@ p {
 footer {
     height: 150px;
     border-top: 1px solid #54424B;
-
 }
 
 .media-links {
@@ -215,6 +232,32 @@ footer {
     padding-top: 20px;
     padding-left: 10%;
 }
+
+/* table */
+
+#timetable {
+    display: flex;
+    justify-content: center;
+  }
+  
+table {
+    align-self: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+/* table {
+    margin: 0 auto;
+    padding: 2em 10%;
+} */
+
+/* #timetable {
+    width: 80%;
+    height: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+} */
 
 /* contact */
 
