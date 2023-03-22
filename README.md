@@ -89,4 +89,7 @@ Yoga: a beginner's guide to the different styles from [The Guardian](https://www
 
 How to create an e-mail link in HTML from [wikihow](https://www.wikihow.com/Create-an-Email-Link-in-HTML)
 
+[CSS tricks](https://css-tricks.com/table-with-borders-only-on-the-inside/) for table border and to centre the table in the
+parent container used [stack overflow](https://stackoverflow.com/questions/7059394/how-to-position-a-table-at-the-center-of-div-horizontally-vertically). 
+
 Acknowledgements
