@@ -87,22 +87,17 @@ p {
 
 /* yoga quote and dancers pose image section */
 
-#yoga-quote {
+#yoga-quote-container {
     height: 300px;
+}
+
+#yoga-quote-content {
     text-align: center;
-}
-
-#yoga-quote h2 {
+    padding: 0 10% 0 10%;
     position: relative;
-    top: 40%;
+    top: 50%;
     transform: translateY(-50%);
-}
-
-#yoga-quote p {
-    position: relative;
-    top: 40%;
-    transform: translateY(-50%);
-}
+}   
 
 #dancers-pose {
     text-align: center;
