@@ -11,8 +11,8 @@ To visit the live link to Fuerteventura Beach Yoga on GitHub pages click [here](
 ### Initial Discussion
 ### Key Information
 
-## Design
-### Colour Scheme
+### Design
+#### Colour Scheme
 
 *colormind.io used to generate colour palette from hero image
 *screenshot
@@ -21,14 +21,14 @@ To visit the live link to Fuerteventura Beach Yoga on GitHub pages click [here](
 *ColorSpace used to generate classy palette from #E2D6DC colour generated in colormind
 *https://mycolor.space/?hex=%23E2D6DC&sub=1
 
-### Typography
+#### Typography
 For font pairing ideas [Figma](https://www.figma.com/google-fonts/josefin-sans-font-pairings/)
-### Imagery
+#### Imagery
 *Hero image [Pexels](https://www.pexels.com/photo/a-woman-meditating-at-the-beach-6712374/)
 *Dacers pose image [Pexels](https://www.pexels.com/photo/woman-in-yoga-pose-on-beach-13894711/)
 *Yoga class image [Unsplash](https://unsplash.com/photos/GaprWyIw66o)
 
-### Wireframes
+#### Wireframes
 
 ## Features
 
@@ -42,15 +42,6 @@ For font pairing ideas [Figma](https://www.figma.com/google-fonts/josefin-sans-f
 *CSS
 ### Frameworks
 
-## Deployment
-The site was deployed to GitHub pages and the following steps were followed to do so:
-
-1. Login in to GitHub.
-2. Navigate to the [repository](https://github.com/decant09/beach-yoga-fuerteventura) for this website.
-3. In the repository click on the Settings tab.
-4. Use the navigation bar on the left hand side to open the pages section.
-5. In the branch section select a source to enable GitHub Pages for this repository. Select Main from the drop-down menu and click Save.
-6. Wait a few moments and an url is generated with a live link to the website which can be found [here](https://decant09.github.io/beach-yoga-fuerteventura/).
 
 ## Testing
 Document testing that was run during the build and any issues
@@ -74,6 +65,16 @@ Test on different browsers i.e chrome, firefox, safari, edge
 #### Solved
 
 Images did not upload when viewing website on GitHub pages. Removed leading "/" from src path to fix issue.
+
+## Deployment
+The site was deployed to GitHub pages and the following steps were followed to do so:
+
+1. Login in to GitHub.
+2. Navigate to the [repository](https://github.com/decant09/beach-yoga-fuerteventura) for this website.
+3. In the repository click on the Settings tab.
+4. Use the navigation bar on the left hand side to open the pages section.
+5. In the branch section select a source to enable GitHub Pages for this repository. Select Main from the drop-down menu and click Save.
+6. Wait a few moments and an url is generated with a live link to the website which can be found [here](https://decant09.github.io/beach-yoga-fuerteventura/).
 
 ## Credits
 Code Used
