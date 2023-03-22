@@ -369,3 +369,27 @@ input[type=submit] {
     background-position: center center;
     position: relative;
 }
+
+#sunset-cover-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding: 5% 10% 0 10%;
+}
+
+#sunset-cover-text h1 {
+    font-size: 10vh;
+    letter-spacing: 1rem;
+    margin: 0;
+}
+
+#sunset-cover-text p {
+    font-size: 5vh;
+    letter-spacing: 1rem;
+    margin: 0;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
