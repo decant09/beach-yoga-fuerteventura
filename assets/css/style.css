@@ -88,7 +88,8 @@ p {
 /* yoga quote and dancers pose image section */
 
 #yoga-quote-container {
-    height: 300px;
+    height: fit-content;
+    margin: 10% 0;
 }
 
 #yoga-quote-content {
@@ -114,13 +115,15 @@ p {
     position: relative;
     top: 40%;
     transform: translateY(-50%);
+    /* height: 100%; */
 }
 
 /* about us and yoga class image section */
 
 #about-us-container {
-    height: 450px;
     text-align: left;
+    height: fit-content;
+    margin: 10% 0;
 }
 
 #about-us {
@@ -145,13 +148,16 @@ p {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    /* height: 100%; */
+    /* left: -80%; */
 }
 
 /* why yoga */
 
 #why-yoga-container {
-    height: 750px;
     text-align: left;
+    height: fit-content;
+    margin: 10% 0;
 }
 
 #why-yoga-content {
@@ -176,14 +182,15 @@ p {
     color: #CA9FB6;
 }
 
-/* #benefits {
-    height: 450px;
-} */
+.benefits {
+    margin-top: 4rem;
+}
 
 /* footer */
 
 footer {
     height: 150px;
+    height: fit-content;
     border-top: 1px solid #54424B;
 }
 
