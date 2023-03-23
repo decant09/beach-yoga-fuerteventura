@@ -25,7 +25,7 @@ To visit the live link to Fuerteventura Beach Yoga on GitHub pages click [here](
 For font pairing ideas [Figma](https://www.figma.com/google-fonts/josefin-sans-font-pairings/)
 #### Imagery
 *Hero image [Pexels](https://www.pexels.com/photo/a-woman-meditating-at-the-beach-6712374/)
-*Dacers pose image [Pexels](https://www.pexels.com/photo/woman-in-yoga-pose-on-beach-13894711/)
+*Dancers pose image [Pexels](https://www.pexels.com/photo/woman-in-yoga-pose-on-beach-13894711/)
 *Yoga class image [Unsplash](https://unsplash.com/photos/GaprWyIw66o)
 *Schedule image [Unsplash](https://unsplash.com/photos/aHll22KZdJE)
 *Contact us image [Pexels](https://www.pexels.com/photo/palm-trees-around-beach-in-village-15739715/)
@@ -64,6 +64,8 @@ Test on different browsers i.e chrome, firefox, safari, edge
 
 ### Bugs
 #### Known
+The whole header area is a hyperlink as opposed to just the logo area which is intended. If time permitted [stack overflow](https://stackoverflow.com/questions/40826300/how-to-place-an-image-in-a-header-surrounded-by-an-anchor-tag-and-make-the-image) is a useful possible solution.
+
 #### Solved
 
 Images did not upload when viewing website on GitHub pages. Removed leading "/" from src path to fix issue.
@@ -94,6 +96,16 @@ How to create an e-mail link in HTML from [wikihow](https://www.wikihow.com/Crea
 [CSS tricks](https://css-tricks.com/table-with-borders-only-on-the-inside/) for table border and to centre the table in the
 parent container used [stack overflow](https://stackoverflow.com/questions/7059394/how-to-position-a-table-at-the-center-of-div-horizontally-vertically).
 
-For image positioning at small screen size [stack overflow](https://stackoverflow.com/questions/16177707/avoid-stretch-on-image-css)
+For image positioning [stack overflow](https://stackoverflow.com/questions/16177707/avoid-stretch-on-image-css), [CSS tricks](https://css-tricks.com/almanac/properties/o/object-position/) and [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/object-position)
+
+Flexbox [Flexbox Froggy](https://flexboxfroggy.com/)
+
+Background positioning for hero image [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)
+
+To split screen [W3Schools](https://www.w3schools.com/howto/howto_css_split_screen.asp)
+
+For help with margins [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/margin)
+
+Did not use in the end as used class selector but could have used nth child selector as per [W3Schools](https://www.w3schools.com/cssref/sel_nth-child.php)
 
 Acknowledgements

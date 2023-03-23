@@ -158,8 +158,6 @@ p {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    /* height: 100%; */
-    /* left: -80%; */
 }
 
 /* why yoga */
@@ -426,7 +424,6 @@ input[type=submit] {
     padding: 1rem;
     font-weight: bold;
 }
-
 
 /* for screen size from 980px wide and down */
 @media screen and (max-width: 980px) {
