@@ -69,7 +69,7 @@ p {
     width: 100%;
     background: url(../images/hero-image.jpg) no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: left 50% bottom 50%;
     position: relative;
 }
 
@@ -210,7 +210,7 @@ footer {
     color: #54424B;
 }
 
-/* schedule */
+/* schedule image */
 
 #schedule-img {
     height: 600px;
@@ -234,9 +234,9 @@ footer {
   }
 
 table {
+    height: fit-content;
     align-self: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 4rem;
     width: 33%;
     border-collapse: collapse;
     border-style: hidden;
@@ -261,6 +261,40 @@ th, td {
     text-align: right;
 }
 
+/* classes */
+
+#classes-container {
+    height: fit-content;
+    margin: 4rem 0;
+}
+
+#classes-container a {
+    font-style: italic;
+    color: inherit;
+}
+
+#classes-container a:hover {
+    color: #CA9FB6;
+}
+
+#classes-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding: 0 10% 0 10%;
+}
+
+#classes-content-intro {
+    margin: 1rem 0;
+}
+
+.class-style {
+    margin: 1rem 0;
+}
+
 /* contact */
 
 #contact-us-img {
@@ -277,11 +311,23 @@ th, td {
     padding-left: 10%;
 }
 
+/* contact us text */
+
 #contact-us-opener {
-    margin: 0 10%;
+    padding: 0 10%;
+    margin-top: 4rem;
+}
+
+/* form map area */
+
+#form-map-area {
+    display: flex;
+    flex-direction: row;
+    margin: 4rem 0;
 }
 
 /* form */
+
 form {
     height: 100%;
 }
@@ -319,11 +365,6 @@ input[type=submit] {
     margin-top: 0;
 }
 
-#form-map-area {
-    display: flex;
-    flex-direction: row;
-}
-
 .form-map-align > p {
     margin-block-start: 0;
 }
@@ -334,36 +375,6 @@ input[type=submit] {
 
 .left {
     margin-right: 5%;
-}
-
-/* classes */
-
-#classes-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    text-align: center;
-    padding: 0 10% 0 10%;
-}
-
-#classes-content-intro {
-    margin: 1rem 0;
-}
-
-.class-style {
-    margin: 1rem 0;
-}
-
-
-#classes-container a {
-    font-style: italic;
-    color: inherit;
-}
-
-#classes-container a:hover {
-    color: #CA9FB6;
 }
 
 /* thank you */
@@ -399,4 +410,14 @@ input[type=submit] {
     padding: 1rem;
     border-radius: 1rem;
     font-weight: bold;
+}
+
+/* for larger to medium screen size from 1350px wide and down */
+@media screen and (max-width: 1350px) {
+    #hero-image {
+        background-position: left 5% botom 5%;
+    }
+    #cover-text h1 {
+        text-decoration: line-through;
+    }
 }
