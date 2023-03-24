@@ -27,13 +27,12 @@ Beach Yoga Fueteventura is a fictional yoga club based in El Cotillo, Fuertevent
 - There should be links to social media pages.
 #### First Time Visitor Goals
 - I want to find out what Beach Yoga Fuerteventura is.
-- I want to know what yoga is.
-- I want to find this information easily.
+- I want to know what why I should do yoga.
+- I want to find information easily.
 - I want to find a schedule.
 - I want to learn about what types of yoga are taught.
 - I want to find the location of the class.
 #### Returning Visitor Goals
-- I want the information on the site to be up to date.
 - I want there to be a schedule so I can see if there are any changes to class times.
 - If I need more information that there is a place to make contact.
 - I want to be able to locate the social media pages.
@@ -164,6 +163,45 @@ The website is made up of four pages. A home page, schedule page, contact page a
 I used Google Dev Tools to test for screen responsiveness.  
 
 I tested on different browsers i.e chrome, firefox, safari & edge to ensure compatability across these.  
+
+### Testing User Stories from User Experience (UX) Section
+#### First Time Visitor Goals
+- I want to find out what Beach Yoga Fuerteventura is.
+    - There is an about us section on the home page to explain what Beach Yoga Fuerteventura is about.  
+![](/docs/byf-website-screenshots/about-us.png)
+- I want to know what why I should do yoga.
+    -There is a section describing some of the benefits of yoga and an underlined link to a website that provides more information.  
+![](/docs/byf-website-screenshots/why-yoga.png)
+- I want to find information easily.
+    - The pages of the website are not heavily populated with content. The home page is puntucated by images breaking the page up making it an easy experience to find information.
+    - There is a navigation bar in the header to help navigate the site.  
+![](/docs/byf-website-screenshots/header.png)
+- I want to find a schedule.
+    - There is a timetable on the schedule page showing the class types and days and times they are on.
+![](/docs/byf-website-screenshots/timetable.png)  
+- I want to learn about what types of yoga are taught.
+    - There is a section beneath the timetable expalining what the different types of yoga are that are in the classes.  
+![](/docs/byf-website-screenshots/classes.png)  
+- I want to find the location of the class.
+    - There is a map showing the meet up location to meet at before class.  
+![](/docs/byf-website-screenshots/map.png)
+#### Returning Visitor Goals
+- I want there to be a schedule so I can see if there are any changes to class times.
+    - The timetable on the schedule page is used to address this goal (screenshot above).
+- If I need more information that there is a place to make contact.
+    - The contact form on the contact page can used to leave a message.
+![](/docs/byf-website-screenshots/form.png)  
+    - There is also a e-mail option in the footer to send an e-mail.
+- I want to be able to locate the social media pages.
+    - Links to the social media pages are located in the footer.
+![](/docs/byf-website-screenshots/footer.png)
+#### Frequent Visitor Goals
+- I want a contact area so I can leave some feedback on the classes.
+    - The contact form provides an opportunity to do this (screenshot above).
+- I want to be able to sign up to a newsletter.
+    - There is a newsletter check-box that is automatically ticked when landing on the page (it can also be unticked). This can be signed up for when submitting a message through the contact form.  
+![](/docs/byf-website-screenshots/newsletter.png)
+
 
 ### Bugs
 #### Known
