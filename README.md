@@ -160,9 +160,15 @@ The website is made up of four pages. A home page, schedule page, contact page a
 ![](/docs/testing/lighthouse-testing-thank-you.png)
 
 ### Manual
-I used Google Dev Tools to test for screen responsiveness.  
+- I used Google Dev Tools to test for screen responsiveness.  
 
-I tested on different browsers i.e chrome, firefox, safari & edge to ensure compatability across these.  
+- I tested on different browsers (chrome, firefox, safari & edge) to ensure the website preforms as expected across all of these.  
+
+- I tested all the media links and hyperlinks on the website manually to ensure that they are all working as expexted. The media links redirect accordingly and the email link opens up as expected. The links in the main body of the website redirected appropraiately to the websites they are linked to and open in new tabs as intended.  
+
+- I tested the form. It behaves as expected. The form can not be submitted until all fields are completed and there is an @ symbol in the e-mail field. If the submit button is clicked before completing the required fields a tooltip will highlight the field that needs attention. The newsletter check-box is ticked upon landing on the page and can be unticked if preferred. When all fields are completed and the submit button clicked you are re-directed to the thank you page as intended.
+
+- I spellchecked the website by copying the text content to [Online Spellcheck](https://www.online-spellcheck.com/).
 
 ### Testing User Stories from User Experience (UX) Section
 #### First Time Visitor Goals
@@ -180,7 +186,7 @@ I tested on different browsers i.e chrome, firefox, safari & edge to ensure comp
     - There is a timetable on the schedule page showing the class types and days and times they are on.
 ![](/docs/byf-website-screenshots/timetable.png)  
 - I want to learn about what types of yoga are taught.
-    - There is a section beneath the timetable expalining what the different types of yoga are that are in the classes.  
+    - There is a section beneath the timetable expalining what the different types of yoga are that are in the classes. There is also an underlined link to a website that provides more information on the different types of yoga.  
 ![](/docs/byf-website-screenshots/classes.png)  
 - I want to find the location of the class.
     - There is a map showing the meet up location to meet at before class.  
@@ -205,11 +211,14 @@ I tested on different browsers i.e chrome, firefox, safari & edge to ensure comp
 
 ### Bugs
 #### Known
-The whole header area is a hyperlink as opposed to just the logo area which is intended. If time permitted [stack overflow](https://stackoverflow.com/questions/40826300/how-to-place-an-image-in-a-header-surrounded-by-an-anchor-tag-and-make-the-image) is a useful possible solution.
-
+- The whole header area is a hyperlink as opposed to just the logo area which is intended. If time permitted [stack overflow](https://stackoverflow.com/questions/40826300/how-to-place-an-image-in-a-header-surrounded-by-an-anchor-tag-and-make-the-image) is a useful possible solution.
+- When viewed using safari on Apple iPhone 11 the timetable aligs to the right of the screen. It should appear as expected in the middle of the screen which it does on safari on an Apple iMac desktop. Unfortunately I was not able to resolve this bug.
 #### Solved
-
-Images did not upload when viewing website on GitHub pages. Removed leading "/" from src path to fix issue.
+- When the website was viewed using the link from the gitpod port the images on the website appeared as expected. However, when the website was viewed using the GitHub pages url the images did not appear at all. This was due to a leading "/" in image src path which when removed resolved the issue.
+- The navigation bar was not lining up centrally. I noticed this as the schedule link was offset against the logo. Using dev tools I was able to see that there was some default marginm being applied at the start of the navigation bar which when removed resulted in the preferred alignment.
+- The dancers pose image, the second image on the home page would strectch and become distorted as the screen size reduced. This was rescolved by applying object-position to cover.
+- The text overlaying the hero image would begin to lay over the central figure hero image when the screen size reduced. This would have impacted it's clarity. This was resolved by enabling the hero image to move to the right using a background position rule in the media query and also by reducing the area that the text was allowed to occupy.
+- At lower screen sizes the map and form did not behave as expected. They would display as block elements as intended however they did not cover the entire block and occupy the screen width. I realized that my media query rule was targeting the correct title to target, however I was targeting an id selector as opposed to a class selector. After identifying this and tidying up some margin rules the issues was resolved.
 
 ## Deployment
 The site was deployed to GitHub pages and the following steps were followed to do so:
@@ -222,40 +231,37 @@ The site was deployed to GitHub pages and the following steps were followed to d
 6. Wait a few moments and an url is generated with a live link to the website which can be found [here](https://decant09.github.io/beach-yoga-fuerteventura/).
 
 ## Credits
+### Code Used
+- Used the code from the Love Running website to develop the footer element. 
 
-**Images**  
-The hero image is from [Pexels](https://www.pexels.com/photo/a-woman-meditating-at-the-beach-6712374/).  
-The dancers pose image is from [Pexels](https://www.pexels.com/photo/woman-in-yoga-pose-on-beach-13894711/).  
-The yoga class image is from [Unsplash](https://unsplash.com/photos/GaprWyIw66o).  
-The schedule image is from [Unsplash](https://unsplash.com/photos/aHll22KZdJE).  
-The contact us image is from [Pexels](https://www.pexels.com/photo/palm-trees-around-beach-in-village-15739715/).  
-The thank you image is from [Unsplash](https://unsplash.com/photos/KMn4VEeEPR8).  
+### Images
+- The hero image is from [Pexels](https://www.pexels.com/photo/a-woman-meditating-at-the-beach-6712374/).  
+- The dancers pose image is from [Pexels](https://www.pexels.com/photo/woman-in-yoga-pose-on-beach-13894711/).  
+- The yoga class image is from [Unsplash](https://unsplash.com/photos/GaprWyIw66o).  
+- The schedule image is from [Unsplash](https://unsplash.com/photos/aHll22KZdJE).  
+- The contact us image is from [Pexels](https://www.pexels.com/photo/palm-trees-around-beach-in-village-15739715/).  
+- The thank you image is from [Unsplash](https://unsplash.com/photos/KMn4VEeEPR8).  
 
-Code Used
+### Logo  
+- The logo image was generated using [Canva](https://www.canva.com).
 
-Content eg logo maps
+### Map  
+- I was able to embed the Google map iframe by using [mAps.ie](https://www.maps.ie/)
 
-Media eg photos videos
+### Clickable Links
+- _Benefits_ hyperlink: 9 Benefits of Yoga from [Johns Hopkins Medicine](https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-benefits-of-yoga).  
+- _Yoga_ hyperlink: a beginner's guide to the different styles from [The Guardian](https://www.theguardian.com/lifeandstyle/2014/jan/10/yoga-beginners-guide-different-styles)  
 
-Yoga: a beginner's guide to the different styles from [The Guardian](https://www.theguardian.com/lifeandstyle/2014/jan/10/yoga-beginners-guide-different-styles)
+### Resources
+- To to create an e-mail link in HTML referred to [wikihow](https://www.wikihow.com/Create-an-Email-Link-in-HTML)
+- Used [CSS tricks](https://css-tricks.com/table-with-borders-only-on-the-inside/) to create the desired table border and to centre the table in the parent container used [stack overflow](https://stackoverflow.com/questions/7059394/how-to-position-a-table-at-the-center-of-div-horizontally-vertically).
+- For image positioning [stack overflow](https://stackoverflow.com/questions/16177707/avoid-stretch-on-image-css), [CSS tricks](https://css-tricks.com/almanac/properties/o/object-position/) and [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/object-position).
+- Flexbox used throughout and referred to [Flexbox Froggy](https://flexboxfroggy.com/) for help.
+- Background positioning for hero image was resolved using [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)
+- To split screen as for the form and map area used [W3Schools](https://www.w3schools.com/howto/howto_css_split_screen.asp).
+- For help with margins referred to [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/margin).
 
-9 Benefits of Yoga from [Johns Hopkins Medicine](https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-benefits-of-yoga).
-
-How to create an e-mail link in HTML from [wikihow](https://www.wikihow.com/Create-an-Email-Link-in-HTML)
-
-[CSS tricks](https://css-tricks.com/table-with-borders-only-on-the-inside/) for table border and to centre the table in the
-parent container used [stack overflow](https://stackoverflow.com/questions/7059394/how-to-position-a-table-at-the-center-of-div-horizontally-vertically).
-
-For image positioning [stack overflow](https://stackoverflow.com/questions/16177707/avoid-stretch-on-image-css), [CSS tricks](https://css-tricks.com/almanac/properties/o/object-position/) and [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/object-position)
-
-Flexbox [Flexbox Froggy](https://flexboxfroggy.com/)
-
-Background positioning for hero image [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)
-
-To split screen [W3Schools](https://www.w3schools.com/howto/howto_css_split_screen.asp)
-
-For help with margins [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/margin)
-
-Did not use in the end as used class selector but could have used nth child selector as per [W3Schools](https://www.w3schools.com/cssref/sel_nth-child.php)
-
-Acknowledgements
+### Acknowledgements
+- My Mentor Chris Quinn for continuous helpful feedback.
+- Tutor support at Code Institute for their amazing support.
+- Alan Bushell at Code Institute for guiding the our in class in our weekly stand ups.
