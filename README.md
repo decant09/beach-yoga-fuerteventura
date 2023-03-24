@@ -1,7 +1,7 @@
 # Beach Yoga Fuerteventura
 Beach Yoaga Fuerteventura is a website designed for a fictional yoga club in El Cotillo, Fuerteventura. The website is designed for the client, the yoga club, and also for the user. It's purpose is to provide information about yoga and the club. It is aimed at people who are interested in yoga who are living in or visting the area. It also provides an area to request more information if desired.
 
-![](/docs/testing/am_i_responsive.png)
+![](/docs/testing/am-i-responsive.png)
 
 To visit the live link to Fuerteventura Beach Yoga on GitHub pages click [here](https://decant09.github.io/beach-yoga-fuerteventura/).  
 
@@ -71,32 +71,53 @@ The website is made up of four pages. A home page, schedule page, contact page a
     - The e-mail link, an envelope icon, takes you to an e-mail application, if there is one installed on your device. The application will open with the e-mail address "info@beachyogafuerteventura.com" in the recipient field and the word "Information" in the subject field.  
     - Universally recognisable icons for each media link and are given a clear space to occupy. This is maintained across device sizes.
 ![](docs/byf-website-screenshots/footer.png)  
-- Home page
+- Home Page
     - Below the header on the home page is the hero image. This is lady in the reverse prayer yoga move facing the ocean. To the side of her is some text which states the name of the actiivty (Beach Yoga), where it is located (in El Cotillo, Fuerteventura), and a short statement about what this yoga group is for (Yoga for the mind, body and soul).  
     - This is followed by a yoga quote credited to Linda Sparrowe and below this an image of a lady in dancers pose yoga move on a beach which spans the width of the screen.
     - The "About Us" section describes what Beach Yoga Fuerteventura is and an image of a yoga class on a beach, with a teacher facing some students, follows this spans the width of the screen. 
     - A why yoga section describes the benefits to doing yoga.
-- Schedule page
+- Schedule Page
     - Below the header on the schedule page is an image of a beach with seven stones stacked on top of each other in a column. This is an image synonymous with yoga and represents the seven chakras of the body. Overlaying this image is the word "Schedule" making it clear that you are on the schedule page.
     - A timetable shows the days, type of yoga and time of each yoga class.
     - A section below this describes what the different types of yoga are from the classes in the timetable.
-- Contact page
+![](/docs/byf-website-screenshots/timetable.png)
+- Contact Page
     - Below the header on the contact page is an image of a beach, a building and some palm trees.  Overlaying this image are the words "Contact Us" making it clear that you are on the contact page.
     - A brief opener to the contact page is followed by a contact form with the option to sign up for a newsletter. This option is automatically ticked when the page loads and can be unticked if required by the user.
     - The form contains a first name text input, last name text , an e-mail address input and a text area to leave a message, followed by the newletter check-box and a submit button.
     - Adjacent to the form is a map with a pin drop location on it. As there is no exact physical location for Beach Yoga Fuerteventura, the pin drop on the map is provided to show a meeting point before class.
-    - The form and map are located adjacent to each other but on smaller screen size a media query is used to allow each component to separate and occupy the width of the screen, form first, followed by map.  
+    - The form and map are located adjacent to each other but on smaller screen size a media query is used to allow each component to separate and occupy the width of the screen, form first, followed by map. 
+![](docs/byf-website-screenshots/form-map-area.png)
+- Thank You Page
+    - A page containing an image of a beach with the sun setting over the ocean. The message "Thank you! We will be in touch shortly." overlays the image.
+- Future Features
+    - Add a frequently asked questions page for further information for first time visitors to utilize.
+    - Add further images of yoga classes on the beach.
 
 ##  Technologies Used
-*For icons [Font Awesome](https://fontawesome.com/)
-*For font [Google Fonts](https://fonts.google.com/)
-*Logo on [Canva](https://www.canva.com/)
-*For image compression [tinypng](https://tinypng.com/)
+*For image compression 
 ### Languages
-*HTML
-*CSS
+- HTML5
+- CSS3
 ### Frameworks
-
+- Git
+    - Used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- [Google Fonts](https://fonts.google.com/)
+    - Google fonts were used to import the Josefin Slab and Lato font families into the style.css file.
+- GitHub
+    - Used to store the projects code after being pushed from Git.
+- [Font Awesome](https://fontawesome.com/)
+    - Used for the social media and e-mail icons in the footer.
+- [Canva](https://www.canva.com/)
+    - The logo image was created using Canva.
+- [Tinypng](https://tinypng.com/)
+    - Used to compress image files down to smaller size before uploading to website.
+- Google Dev Tools
+    - Used for responsive investigations, to isolate code and to troubleshoot and test features.
+- [Maps.ie](https://maps.ie)
+    - Used to obtain code to embed in iframe for google map display.
+- [Am I Responsive](https://ui.dev/amiresponsive?url=https://decant09.github.io/beach-yoga-fuerteventura/)
+    - Used to show reponsiveness across different device sizes.
 
 ## Testing
 I tested the contrast of the background colour and the font colour using [WebAIM](https://webaim.org/resources/contrastchecker/?fcolor=54424B&bcolor=E2D6DC) with accessibility in mind and this resulted in a pass.
