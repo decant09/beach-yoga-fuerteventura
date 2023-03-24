@@ -1,7 +1,7 @@
 # Beach Yoga Fuerteventura
-Beach Yoaga Fuerteventura is a website designed for a fictional yoga club in El Cotillo, Fuerteventura. The website is designed for the client, the yoga club, and also for the user. It is meant to provide information for people who are interested in yoga who are living in or visting the area and provides an area to request more information if desired.
+Beach Yoaga Fuerteventura is a website designed for a fictional yoga club in El Cotillo, Fuerteventura. The website is designed for the client, the yoga club, and also for the user. It's purpose is to provide information about yoga and the club. It is aimed at people who are interested in yoga who are living in or visting the area. It also provides an area to request more information if desired.
 
-amiresponsive
+![](/docs/testing/am_i_responsive.png)
 
 To visit the live link to Fuerteventura Beach Yoga on GitHub pages click [here](https://decant09.github.io/beach-yoga-fuerteventura/).
 
@@ -9,8 +9,26 @@ To visit the live link to Fuerteventura Beach Yoga on GitHub pages click [here](
 
 ## User Experience
 ### Initial Discussion
-### Key Information
-
+Beach Yoga Fueteventura is a fictional yoga club based in El Cotillo, Fuerteventura. In this scenario the client is looking to provide information for potential interested clients. The area is very touristy so the club sees alot of transient visitors as well as regular clients also. In that sense the clubs is looking to recruit experienced clients as well as clients with experience.
+**Key information for the site**
+- A brief introduction describing what the club is about.
+- Information about the benefits of yoga.
+- A timetable providing the schedule.
+- Information about classes.
+- A map showing where the meet-up point is.
+### User Stories
+#### Client Goals
+- The site must be have a calming appearance on visiting.
+- Key information must be easily found and the website should be navigatable.
+- The site must be available to access on a range of devices, in particular mobile.
+- There must be an area to allow interested clients to get in touch.
+- There should be links to social media pages.
+#### First Time Visitor Goals
+- I want to find out what is Beach Yoga Fuerteventura is.
+I want to be able to navigate the site easily to find information.
+I want to be able to find their social media pages.
+#### Returning Visitor Goals
+#### Frequent Visitor Goals
 ### Design
 #### Colour Scheme
 
@@ -30,7 +48,7 @@ For font pairing ideas [Figma](https://www.figma.com/google-fonts/josefin-sans-f
 *Schedule image [Unsplash](https://unsplash.com/photos/aHll22KZdJE)
 *Contact us image [Pexels](https://www.pexels.com/photo/palm-trees-around-beach-in-village-15739715/)
 *Thank you image [Unsplash](https://unsplash.com/photos/KMn4VEeEPR8)
-#### Wireframes
+### Wireframes
 
 ## Features
 
