@@ -120,23 +120,50 @@ The website is made up of four pages. A home page, schedule page, contact page a
     - Used to show reponsiveness across different device sizes.
 
 ## Testing
-I tested the contrast of the background colour and the font colour using [WebAIM](https://webaim.org/resources/contrastchecker/?fcolor=54424B&bcolor=E2D6DC) with accessibility in mind and this resulted in a pass.
-![](/docs/colour-palette/webaim-contrast-check.png)  
-Document testing that was run during the build and any issues
-### Automated
-HTML using W3C Validator - results
 
-CSS using Jigsaw Validator -  reults
+### W3C Validator
+#### HTML Testing
+- index.html 
+    - Result - No errors or warnings to show.  
+![](/docs/testing/validator-testing-index.png)
+- schedule.html
+    - Result - No errors or warnings to show.  
+![](/docs/testing/validator-testing-schedule.png)
+- contact.html
+    - Result - No errors or warnings to show.  
+![](/docs/testing/validator-testing-contact.png)
+- thank-you.html
+    - Result - No errors or warnings to show.  
+![](/docs/testing/validator-testing-thank-you.png)
 
-Accessibility using Lighthouse -results screenshot
+#### CSS Testing
+- style.css
+    - Result - No errors found.  
+![](/docs/testing/validator-testing-style.png)
+
+### Accessibility Testing
+#### WebAIM
+- I tested the contrast of the background colour versus the font colour using [WebAIM](https://webaim.org/resources/contrastchecker/?fcolor=54424B&bcolor=E2D6DC).
+    -  Result - 6.59:1 - Pass.  
+![](/docs/colour-palette/webaim-contrast-check.png) 
+#### Google Lighthouse
+- index.html
+    - Result - 100  
+![](/docs/testing/lighthouse-testing-index.png)
+- schedule.html
+    - Result - 100  
+![](/docs/testing/lighthouse-testing-schedule.png)
+- contact.html
+    - Result - 97  
+![](/docs/testing/lighthouse-testing-contact.png)
+- thank-you.html
+    - Result - 100  
+![](/docs/testing/lighthouse-testing-thank-you.png)
 
 ### Manual
-Google Dev Tools for screen responsiveness
+I used Google Dev Tools to test for screen responsiveness.  
 
-Test on different browsers i.e chrome, firefox, safari, edge
-
-*WebAIM used to check colour contrast - result - pass
-*https://webaim.org/resources/contrastchecker/?fcolor=54424B&bcolor=E2D6DC
+I tested on different browsers i.e chrome, firefox, safari & edge to ensure compatability across these.  
 
 ### Bugs
 #### Known
