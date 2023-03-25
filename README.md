@@ -159,12 +159,13 @@ The website is made up of four pages, the home page, schedule page, contact page
 - CSS3
 ### Frameworks
 - Git
-    - Used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    - Used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 - [Google Fonts](https://fonts.google.com/)
     - Google fonts were used to import the Josefin Slab and Lato font families into the style.css file.
 - GitHub
     - Used to store the code of the project after being pushed from Git.
-- [Balsamiq](https://balsamiq.com/) used to generate wireframes.
+- [Balsamiq](https://balsamiq.com/)
+    - Used to generate the wireframes for the design of the website.
 - [Font Awesome](https://fontawesome.com/)
     - Used for the social media and e-mail icons in the footer.
 - [Canva](https://www.canva.com/)
@@ -172,9 +173,9 @@ The website is made up of four pages, the home page, schedule page, contact page
 - [Tinypng](https://tinypng.com/)
     - Used to compress image files down to smaller sizes before uploading to the website.
 - Google Dev Tools
-    - Used for responsive investigations, isolating code, troubleshooting, and testing features.
+    - Used for responsiveness investigations, isolating code, troubleshooting, and testing features.
 - [Maps.ie](https://maps.ie)
-    - Used to obtain code to embed in iframe for google map display.
+    - Used to obtain the code to embed in iframe for google map display.
 - [Am I Responsive](https://ui.dev/amiresponsive?url=https://decant09.github.io/beach-yoga-fuerteventura/)
     - Used to show responsiveness across different device sizes.
 
