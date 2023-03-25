@@ -41,11 +41,11 @@ Beach Yoga Fueteventura is a fictional yoga club based in El Cotillo, Fuertevent
 - I want to be able to sign up to a newsletter.
 ### Design
 #### Colour Scheme
-The website colour palette was generated in a two steps, firtly by importing the hero image to [colormind](http://colormind.io). This then generated colours based on the image uploaded. I opted for the colour of E2D6DC. This is a calming off-white pink colour which I chose as the background colour throughout.  
+The website colour palette was generated in a two steps, firtly by importing the hero image to [colormind](http://colormind.io). This then generated colours based on the image uploaded. I opted for the colour of #E2D6DC. This is a calming off-white pink colour which I chose as the background colour throughout.  
 ![](/docs/colour-palette/colormind-colour-palette.png)
 Secondly, using this colour from colormind as a starting point, I used [ColorSpace](https://mycolor.space/?hex=%23E2D6DC&sub=1) to generate a classy palette.  
 ![](/docs/colour-palette/colorspace-colour-palette.png)  
-From this colour palette I chose 54424B, which is grey/black colour, and used this as my font colour throughout.  
+From this colour palette I chose #54424B, which is grey/black colour, and used this as my font colour throughout.  
 I kept the colour palette minimal in an effort to maintain harmony and serenity throughout the website.
 
 #### Typography
@@ -57,6 +57,18 @@ I chose Lato, a cleaner font, for larger text to create a balanced contrast betw
 The imagery chosen was dones so in an effort to tie in with the main palette of the hero image. Again this was done so to keep the experience of website flowing and relaxing. All imagery used is referenced in the credits in order of appearance as you progress through the website. The logo was generated using [Canva](https://www.canva.com/) and the colour palette used links in with the colour scheme of the website.  
 
 ### Wireframes
+Wireframes were created for desktop as the website layout is the same across different device screen sizes. The one exception being the contact page, where the form and map areas are repositioned above and below each other on screens sizes of 800px and lower. A wireframe is provided to show this layout.  
+- Home Page  
+![](/docs/wireframes/wireframe-homepage.png)  
+- Schedule Page  
+![](/docs/wireframes/wireframe-schedule.png)  
+- Contact Page
+    - Desktop  
+    ![](/docs/wireframes/wireframe-contact.png)  
+    - Screen Sizes below 800px  
+    ![](/docs/wireframes/wireframe-contact-small-screen.png)  
+- Thank You Page  
+![](/docs/wireframes/wireframe-thank-you.png)  
 
 ## Features
 The website is made up of four pages. A home page, schedule page, contact page and a thank you page. The first three of these are accessible using the navigation bar. The fourth page is a thank you page which you land on when submit your contact form. The main structure of each page is a header, a body which contains information or a feature to access more information, and a footer.
@@ -94,7 +106,6 @@ The website is made up of four pages. A home page, schedule page, contact page a
     - Add further images of yoga classes on the beach.
 
 ##  Technologies Used
-*For image compression 
 ### Languages
 - HTML5
 - CSS3
@@ -246,11 +257,11 @@ The site was deployed to GitHub pages and the following steps were followed to d
 - The logo image was generated using [Canva](https://www.canva.com).
 
 ### Map  
-- I was able to embed the Google map iframe by using [mAps.ie](https://www.maps.ie/)
+- I was able to embed the Google map iframe by using [Maps.ie](https://www.maps.ie/)
 
 ### Clickable Links
-- _Benefits_ hyperlink: 9 Benefits of Yoga from [Johns Hopkins Medicine](https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-benefits-of-yoga).  
-- _Yoga_ hyperlink: a beginner's guide to the different styles from [The Guardian](https://www.theguardian.com/lifeandstyle/2014/jan/10/yoga-beginners-guide-different-styles)  
+- The _Benefits_ hyperlink in the "Why Yoga?" section on the home page: 9 Benefits of Yoga from [Johns Hopkins Medicine](https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-benefits-of-yoga).  
+- The _Yoga_ hyperlink in the "Classes" section on the schedule page: a beginner's guide to the different styles from [The Guardian](https://www.theguardian.com/lifeandstyle/2014/jan/10/yoga-beginners-guide-different-styles)  
 
 ### Resources
 - To to create an e-mail link in HTML referred to [wikihow](https://www.wikihow.com/Create-an-Email-Link-in-HTML)
@@ -264,4 +275,4 @@ The site was deployed to GitHub pages and the following steps were followed to d
 ### Acknowledgements
 - My Mentor Chris Quinn for continuous helpful feedback.
 - Tutor support at Code Institute for their amazing support.
-- Alan Bushell at Code Institute for guiding the our in class in our weekly stand ups.
+- Alan Bushell at Code Institute for guiding the class in our weekly stand ups.
