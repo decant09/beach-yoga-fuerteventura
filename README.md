@@ -296,7 +296,7 @@ The site was deployed to GitHub pages and the following steps were followed to d
 
 ## Credits
 ### Code Used
-- Used the code from the Love Running website to develop the footer element. 
+- Used the code from the [Love Running](https://github.com/decant09/love-running) website to develop the footer element. 
 
 ### Images
 - The hero image is from [Pexels](https://www.pexels.com/photo/a-woman-meditating-at-the-beach-6712374/).  
@@ -314,15 +314,15 @@ The site was deployed to GitHub pages and the following steps were followed to d
 
 ### Clickable Links
 - The _Benefits_ hyperlink in the "Why Yoga?" section on the home page: 9 Benefits of Yoga from [Johns Hopkins Medicine](https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-benefits-of-yoga).  
-- The _Yoga_ hyperlink in the "Classes" section on the schedule page: a beginner's guide to the different styles from [The Guardian](https://www.theguardian.com/lifeandstyle/2014/jan/10/yoga-beginners-guide-different-styles)  
+- The _Yoga_ hyperlink in the "Classes" section on the schedule page: A beginner's guide to the different styles from [The Guardian](https://www.theguardian.com/lifeandstyle/2014/jan/10/yoga-beginners-guide-different-styles)  
 
 ### Resources
-- To create an e-mail link in HTML referred to [wikihow](https://www.wikihow.com/Create-an-Email-Link-in-HTML)
-- Used [CSS tricks](https://css-tricks.com/table-with-borders-only-on-the-inside/) to create the desired table border and to centre the table in the parent container used [stack overflow](https://stackoverflow.com/questions/7059394/how-to-position-a-table-at-the-center-of-div-horizontally-vertically).
+- To create an e-mail link in HTML referred to [wikihow](https://www.wikihow.com/Create-an-Email-Link-in-HTML).
+- Used [CSS tricks](https://css-tricks.com/table-with-borders-only-on-the-inside/) to create the desired table border and used [stack overflow](https://stackoverflow.com/questions/7059394/how-to-position-a-table-at-the-center-of-div-horizontally-vertically) to centre the table in the parent container.
 - For image positioning [stack overflow](https://stackoverflow.com/questions/16177707/avoid-stretch-on-image-css), [CSS tricks](https://css-tricks.com/almanac/properties/o/object-position/) and [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/object-position).
 - Flexbox used throughout and referred to [Flexbox Froggy](https://flexboxfroggy.com/) for help.
-- Background positioning for the hero image was resolved using [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)
-- To split the screen as for the form and map area used [W3Schools](https://www.w3schools.com/howto/howto_css_split_screen.asp).
+- Background positioning for the hero image was resolved using [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position).
+- To split the screen, as for the form and map area, used [W3Schools](https://www.w3schools.com/howto/howto_css_split_screen.asp).
 - For help with margins referred to [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/margin).
 
 ### Acknowledgements
