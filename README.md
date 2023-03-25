@@ -207,16 +207,16 @@ The website is made up of four pages, the home page, schedule page, contact page
     -  Result - 6.59:1 - Pass.  
 ![](/docs/colour-palette/webaim-contrast-check.png) 
 #### Google Lighthouse
-- index.html
+- Home Page
     - Result - 100  
 ![](/docs/testing/lighthouse-testing-index.png)
-- schedule.html
+- Schedule Page
     - Result - 100  
 ![](/docs/testing/lighthouse-testing-schedule.png)
-- contact.html
+- Contact Page
     - Result - 97  
 ![](/docs/testing/lighthouse-testing-contact.png)
-- thank-you.html
+- Thank You Page
     - Result - 100  
 ![](/docs/testing/lighthouse-testing-thank-you.png)
 
