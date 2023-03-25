@@ -183,21 +183,21 @@ The website is made up of four pages, the home page, schedule page, contact page
 
 ### W3C Validator
 #### HTML Testing
-- index.html 
+- Home Page
     - Result - No errors or warnings to show.  
 ![](/docs/testing/validator-testing-index.png)
-- schedule.html
+- Schedule Page
     - Result - No errors or warnings to show.  
 ![](/docs/testing/validator-testing-schedule.png)
-- contact.html
+- Contact Page
     - Result - No errors or warnings to show.  
 ![](/docs/testing/validator-testing-contact.png)
-- thank-you.html
+- Thank You Page
     - Result - No errors or warnings to show.  
 ![](/docs/testing/validator-testing-thank-you.png)
 
 #### CSS Testing
-- style.css
+- Style Sheet
     - Result - No errors found.  
 ![](/docs/testing/validator-testing-style.png)
 
