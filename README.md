@@ -17,7 +17,7 @@ To visit the live link to Fuerteventura Beach Yoga on GitHub pages click [here](
         - [Colour Scheme](#colour-scheme)
         - [Typography](#typography)
         - [Imagery](#imagery)
-    - [Wireframes](#wireframes)
+        - [Wireframes](#wireframes)
 - [Features](#features)
     - [Header](#header)
     - [Footer](#footer)
@@ -56,7 +56,7 @@ To visit the live link to Fuerteventura Beach Yoga on GitHub pages click [here](
 ## User Experience
 
 ### Initial Discussion
-Beach Yoga Fuerteventura is a fictional yoga club based in El Cotillo, Fuerteventura. In this scenario, the client is looking to provide information for potentially interested clients. The area is very touristy so the club sees a lot of transient visitors as well as regular clients also. In that sense, the club is looking to recruit experienced clients as well as clients with experience.  
+Beach Yoga Fuerteventura is a fictional yoga club based in El Cotillo, Fuerteventura. In this scenario, the client is looking to provide information for potentially interested clients. The area is very touristy so the club sees a lot of transient visitors as well as regular clients also. In that sense, the club is looking to recruit experienced clients as well as clients with little or no experience.  
 **Key information for the site:**
 - A brief introduction describing what the club is about.
 - Information about the benefits of yoga.
@@ -67,7 +67,7 @@ Beach Yoga Fuerteventura is a fictional yoga club based in El Cotillo, Fuerteven
 ### User Stories
 #### Client Goals
 - The site must have a calming appearance on visiting.
-- Key information must be easily found and the website should be navigatable.
+- Key information must be easily found and the website should be easily navigatable.
 - The site must be available to access on a range of devices, in particular mobile.
 - There must be an area to allow interested clients to get in touch.
 - There should be links to social media pages.
@@ -103,7 +103,7 @@ I chose Lato, a cleaner font, for larger text to create a balanced contrast betw
 #### Imagery
 The imagery chosen was done so to tie in with the main palette of the hero image. In this way, the experience of visiting the website is flowing and relaxing. All imagery used is referenced in the credits in order of appearance as you progress through the website. The logo was generated using [Canva](https://www.canva.com/) and the colour palette used matches the colour scheme of the website.  
 
-### Wireframes
+#### Wireframes
 Wireframes were created for desktop as the website layout is the same across different device screen sizes. The one exception is the contact page, where the form and map areas are repositioned above and below each other on screen sizes of 800px and lower. A wireframe is provided to show this layout.  
 - Home Page  
 ![](/docs/wireframes/wireframe-homepage.png)  
@@ -118,40 +118,40 @@ Wireframes were created for desktop as the website layout is the same across dif
 ![](/docs/wireframes/wireframe-thank-you.png)  
 
 ## Features
-The website is made up of four pages, the home page, schedule page, contact page, and thank you page. The first three of these are accessible using the navigation bar. The fourth page, the thank you page, is accessed when you submit your contact form. The main structure of each page is a header, a body that contains information or a feature to access more information, and a footer.
+The website is made up of four pages, the home page, schedule page, contact page, and thank you page. The first three of these pages are accessible using the navigation bar. The fourth page, the thank you page, is accessed when you submit your contact form. The main structure of each page is a header, a body that contains information or a feature to access more information, and a footer.
 ### Header
-    - Contained in the header is the Beach Yoga Fuertventura logo. This is also a link to the home page throughout the website. When you hover over it the cursor changes to a pointer to let you know it is a link.
-    - The navigation bar is located below the logo. Each element of the navigation bar is evenly spaced out in a horizontal or row-like fashion. This is maintained on all screen sizes. From here you can access each of the main three pages of the website.
-    - When you are on a particular page of the website the respective element of the navigation bar remains underlined, this lets the user know what page they are currently visiting. By hovering over the other elements of the navigation bar a line appears underneath the text to let you know that this is a link to that page of the website.
-    - This header layout is also maintained on the thank you page so you can easily navigate back to any of the three main pages from here. On this page, none of the navigation bar elements have a line underneath them but a line appears as you hover over each one.
+- Contained in the header is the Beach Yoga Fuertventura logo. This is also a link to the home page throughout the website. When you hover over it the cursor changes to a pointer to let you know it is a link.
+- The navigation bar is located below the logo. Each element of the navigation bar is evenly spaced out in a horizontal or row-like fashion. This is maintained on all screen sizes. From here you can access each of the main three pages of the website.
+- When you are on a particular page of the website the respective element of the navigation bar remains underlined, this lets the user know what page they are currently visiting. By hovering over the other elements of the navigation bar a line appears underneath the text to let you know that this is a link to that page of the website.
+- This header layout is also maintained on the thank you page so you can easily navigate back to any of the three main pages from here. On this page, none of the navigation bar elements have a line underneath them but a line appears as you hover over each one.  
 ![](/docs/byf-website-screenshots/header.png)  
 ### Footer
-    - The footer contains social media links (Facebook, YouTube, and Instagram) and an e-mail link.
-    - The e-mail link, an envelope icon, takes you to an e-mail application if there is one installed on your device. The application will open with the e-mail address "info@beachyogafuerteventura.com" in the recipient field and the word "Information" in the subject field.  
-    - Universally recognisable icons for each media link and are given a clear space to occupy. This is maintained across device sizes.
+- The footer contains social media links (Facebook, YouTube, and Instagram) and an e-mail link.
+- The e-mail link, an envelope icon, takes you to an e-mail application if there is one installed on your device. The application will open with the e-mail address "info@beachyogafuerteventura.com" in the recipient field and the word "Information" in the subject field.  
+- Universally recognisable icons for each media link and are given a clear space to occupy. This is maintained across device sizes.  
 ![](docs/byf-website-screenshots/footer.png)  
 ### Home Page
-    - Below the header on the home page is the hero image. This lady is in the reverse prayer yoga move facing the ocean. To the side of her is some text which states the name of the activity (Beach Yoga), where it is located (in El Cotillo, Fuerteventura), and a short statement about what this yoga group is for (Yoga for the mind, body and soul).  
-    - This is followed by a yoga quote credited to Linda Sparrowe and below this, an image of a lady in the dancers pose yoga position on a beach which spans the width of the screen.
-    - The "About Us" section describes what Beach Yoga Fuerteventura is and an image of a yoga class on a beach, with a teacher facing some students, follows this and spans the width of the screen. 
-    - A why yoga section describes the benefits of doing yoga.
+- Below the header on the home page is the hero image. This lady is in the reverse prayer yoga move facing the ocean. To the side of her is some text which states the name of the activity (Beach Yoga), where it is located (in El Cotillo, Fuerteventura), and a short statement about what this yoga group is for (Yoga for the mind, body and soul).  
+- This is followed by a yoga quote credited to Linda Sparrowe and below this, an image of a lady in the dancers pose yoga position on a beach which spans the width of the screen.
+- The "About Us" section describes what Beach Yoga Fuerteventura is and an image of a yoga class on a beach, with a teacher facing some students, follows this and spans the width of the screen. 
+- A why yoga section describes the benefits of doing yoga.  
 ### Schedule Page
-    - Below the header on the schedule page is an image of a beach with seven stones stacked on top of each other in a column. This is an image synonymous with yoga and represents the seven chakras of the body. Overlaying this image is the word "Schedule" making it clear that you are on the schedule page.
-    - A timetable shows the days, type of yoga and time of each yoga class.
-    - A section below this describes what the different types of yoga are from the classes in the timetable.
+- Below the header on the schedule page is an image of a beach with seven stones stacked on top of each other in a column. This is an image synonymous with yoga and represents the seven chakras of the body. Overlaying this image is the word "Schedule" making it clear that you are on the schedule page.
+- A timetable shows the days, type of yoga and time of each yoga class.
+- A section below this describes what the different types of yoga are from the classes in the timetable.  
 ![](/docs/byf-website-screenshots/timetable.png)
 ### Contact Page
-    - Below the header on the contact page is an image of a beach, a building and some palm trees.  Overlaying this image are the words "Contact Us" making it clear that you are on the contact page.
-    - A brief opener to the contact page is followed by a contact form with the option to sign up for a newsletter. This option is automatically ticked when the page loads and can be unticked if required by the user.
-    - The form contains a first name text input, last name text input, an e-mail address input, and a text area to leave a message, followed by the newsletter checkbox and a submit button.
-    - Adjacent to the form is a map with a pin drop location on it. As there is no exact physical location for Beach Yoga Fuerteventura, the pin drop on the map is provided to show a meeting point before class.
-    - The form and map are located adjacent to each other but on smaller screen sizes a media query is used to allow each component to separate and occupy the width of the screen, form first, followed by map. 
+- Below the header on the contact page is an image of a beach, a building and some palm trees.  Overlaying this image are the words "Contact Us" making it clear that you are on the contact page.
+- A brief opener to the contact page is followed by a contact form with the option to sign up for a newsletter. This option is automatically ticked when the page loads and can be unticked if required by the user.
+- The form contains a first name text input, last name text input, an e-mail address input, and a text area to leave a message, followed by the newsletter checkbox and a submit button.
+- Adjacent to the form is a map with a pin drop location on it. As there is no exact physical location for Beach Yoga Fuerteventura, the pin drop on the map is provided to show a meeting point before class.
+- The form and map are located adjacent to each other but on smaller screen sizes a media query is used to allow each component to separate and occupy the width of the screen, form first, followed by map.  
 ![](docs/byf-website-screenshots/form-map-area.png)
 ### Thank You Page
-    - A page containing an image of a beach with the sun setting over the ocean. The message "Thank you! We will be in touch shortly." overlays the image.
+- A page containing an image of a beach with the sun setting over the ocean. The message "Thank you! We will be in touch shortly." overlays the image.
 ### Future Features
-    - Add a frequently asked questions page for further information for first time visitors to utilize.
-    - Add further images of yoga classes on the beach.
+- Add a frequently asked questions page for further information for first time visitors to utilize.
+- Add further images of yoga classes on the beach.
 
 ##  Technologies Used
 ### Languages
