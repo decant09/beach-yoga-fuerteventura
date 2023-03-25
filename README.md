@@ -223,11 +223,13 @@ The website is made up of four pages, the home page, schedule page, contact page
 ### Manual
 - I used Google Dev Tools to test for screen responsiveness.  
 
-- I tested on different browsers (chrome, firefox, safari & edge) to ensure the website performs as expected across all of these.  
+- I tested on different browsers (chrome, firefox, safari & edge) to ensure the website performs as expected across all of these.
 
-- I tested all the media links and hyperlinks on the website manually to ensure that they all work as expected. The media links redirect accordingly and the email link opens up as expected. The links in the main body of the website redirect appropriately to the websites they are linked to and open in new tabs as intended.  
+- I tested on android and iPhone devices.
 
-- I tested the form. It behaves as expected. The form can not be submitted until all fields are completed and there is an @ symbol in the e-mail field. If the submit button is clicked before completing the required fields a tooltip will highlight the field that needs attention. The newsletter checkbox is ticked upon landing on the page and can be unticked if preferred. When all fields are completed and the submit button is clicked you are re-directed to the thank you page as intended.
+- I tested all the media links and hyperlinks on the website manually to ensure that they all work as expected. The media links redirect accordingly and the e-mail link opens up as expected. The links in the main body of the website redirect appropriately to the websites they are linked to and open in new tabs as intended.  
+
+- I tested the form. It behaves as expected. The form can not be submitted until all fields are completed and there is an "@" symbol in the e-mail field. If the submit button is clicked before completing the required fields a tooltip will highlight the field that needs attention. The newsletter checkbox is ticked upon landing on the page and can be unticked if preferred. When all fields are completed and the submit button is clicked you are re-directed to the thank you page as intended.
 
 - I spellchecked the website by copying the text content to [Online Spellcheck](https://www.online-spellcheck.com/).
 
