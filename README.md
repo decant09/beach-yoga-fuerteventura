@@ -131,10 +131,10 @@ The website is made up of four pages, the home page, schedule page, contact page
 - Universally recognisable icons for each media link and are given a clear space to occupy. This is maintained across device sizes.  
 ![](docs/byf-website-screenshots/footer.png)  
 ### Home Page
-- Below the header on the home page is the hero image. This lady is in the reverse prayer yoga move facing the ocean. To the side of her is some text which states the name of the activity (Beach Yoga), where it is located (in El Cotillo, Fuerteventura), and a short statement about what this yoga group is for (Yoga for the mind, body and soul).  
+- Below the header on the home page is the hero image. The lady in this image is in the reverse prayer yoga move facing the ocean. To the side of her is some text which states the name of the activity (Beach Yoga), where it is located (in El Cotillo, Fuerteventura), and a short statement about what yoga is for (Yoga for the mind, body and soul).  
 - This is followed by a yoga quote credited to Linda Sparrowe and below this, an image of a lady in the dancers pose yoga position on a beach which spans the width of the screen.
 - The "About Us" section describes what Beach Yoga Fuerteventura is and an image of a yoga class on a beach, with a teacher facing some students, follows this and spans the width of the screen. 
-- A why yoga section describes the benefits of doing yoga.  
+- A "Why Yoga?" section describes the benefits of doing yoga.  
 ### Schedule Page
 - Below the header on the schedule page is an image of a beach with seven stones stacked on top of each other in a column. This is an image synonymous with yoga and represents the seven chakras of the body. Overlaying this image is the word "Schedule" making it clear that you are on the schedule page.
 - A timetable shows the days, type of yoga and time of each yoga class.
