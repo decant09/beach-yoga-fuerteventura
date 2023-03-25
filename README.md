@@ -150,8 +150,8 @@ The website is made up of four pages, the home page, schedule page, contact page
 ### Thank You Page
 - A page containing an image of a beach with the sun setting over the ocean. The message "Thank you! We will be in touch shortly." overlays the image.
 ### Future Features
-- Add a frequently asked questions page for further information for first time visitors to utilize.
-- Add further images of yoga classes on the beach.
+- Add a frequently asked questions page for further information for first time visitors to utilise.
+- Add further images of yoga classes on the beach to showcase the club.
 
 ##  Technologies Used
 ### Languages
