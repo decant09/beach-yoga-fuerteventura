@@ -239,7 +239,7 @@ The website is made up of four pages, the home page, schedule page, contact page
     - There is an about us section on the home page to explain what Beach Yoga Fuerteventura is about.  
 ![](/docs/byf-website-screenshots/about-us.png)
 - I want to know what the benefits of yoga are.
-    -There is a section describing some of the benefits of yoga and an underlined link to a website that provides more information.  
+    - There is a section describing some of the benefits of yoga and an underlined link to a website that provides more information.  
 ![](/docs/byf-website-screenshots/why-yoga.png)
 - I want to find information easily.
     - The pages of the website are not heavily populated with content. The home page is punctuated by images breaking the page up making it an easy experience to find information.
