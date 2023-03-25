@@ -126,7 +126,7 @@ The website is made up of four pages, the home page, schedule page, contact page
 - This header layout is also maintained on the thank you page so you can easily navigate back to any of the three main pages from here. On this page, none of the navigation bar elements have a line underneath them but a line appears as you hover over each one.  
 ![](/docs/byf-website-screenshots/header.png)  
 ### Footer
-- The footer contains social media links (Facebook, YouTube, and Instagram) and an e-mail link.
+- The footer contains social media links (Facebook, YouTube and Instagram). These open up in new tabs when clicked. The footer also contains an e-mail link.
 - The e-mail link, an envelope icon, takes you to an e-mail application if there is one installed on your device. The application will open with the e-mail address "info@beachyogafuerteventura.com" in the recipient field and the word "Information" in the subject field.  
 - Universally recognisable icons for each media link and are given a clear space to occupy. This is maintained across device sizes.  
 ![](docs/byf-website-screenshots/footer.png)  
